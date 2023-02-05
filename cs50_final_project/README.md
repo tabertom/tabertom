@@ -21,4 +21,8 @@ The player moves by pressing Right or Left arrow key. They shoot by pressing the
 
 #### The SFX
 
-The sound effects used were found online, and can be found when searching "vintage game free sound effects".
+The sound effects used were found online, and can be found when searching "vintage game free sound effects". For each type of bullet collsion, there's a unique sound that is associated to it.
+
+#### The code
+
+In this section, I want to explain more thoroughly the coding that was implemented. As you can imagine, the game is composed by several files. Other than the files containing SFX, images and the like, I thought it would have been more reasonable to split the code in multiple files. *main.lua* is responsible for putting all the different files into one cohesive unit. The code inside *classic.lua* was not written by me, and its usage was recommended in the aformentioned Sheepollution tutorial. It serves key purpose: it makes creating classes possible. Lua as a programming language does not provide its own type of classes, and thus to make the creation of classes possible (where every object has its own methods associated to it), I had to borrow these lines of code from the user "rxi" on GitHub. In *entity.lua* is defined a subclass of *object* class defined in *classic.lua*. *player.lua* defines all the player's characteristics. *brick.lua* and *ball.lua* serve the same purpose. *line.lua* defines the so-called wall object. Finally, *conf.lua* was created to then make the .exe file.
