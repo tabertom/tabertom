@@ -17,11 +17,11 @@ There's not much to say about the game's look :P. The white rectangle in the mid
 
 #### The mechanics
 
-The player moves by pressing Right or Left arrow key. They shoot by pressing the Space Bar. Depending on how the player is moving when they shoot, the bullet will follow a certain trajectory: if the player is moving to the left, the bullet will go diagonally upwards towards the left, and the same goes when the player if the player is moving to the right. If the player stays still and shoot, the bullet will simply go upwards in a straight direction. The bullets themselves, once they hit an obstacle, bounce towards a certain direction. The player can only shoot up to 5 bullets in a given time, and the player can shoot more once the bullets go offscreen
+The player moves by pressing Right or Left arrow key. They shoot by pressing the Space Bar. Depending on how the player is moving when they shoot, the bullet will follow a certain trajectory: if the player is moving to the left, the bullet will go diagonally upwards towards the left, and the same goes when the player if the player is moving to the right. If the player stays still and shoot, the bullet will simply go upwards in a straight direction. The bullets themselves, once they hit an obstacle, bounce towards a certain direction. The player can only shoot up to 5 bullets in a given time, and the player can shoot more once the bullets go offscreen.
 
 #### The SFX
 
-The sound effects used were found online, and can be found when searching "vintage game free sound effects". For each type of bullet collsion, there's a unique sound that is associated to it.
+The sound effects used were found online, and can be found when searching "vintage game free sound effects". For each type of bullet collsion, there's a unique sound that is associated with it.
 
 #### The code
 
